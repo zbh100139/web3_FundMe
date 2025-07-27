@@ -59,8 +59,4 @@ const config: HardhatUserConfig = {
 export default config;
 
 
-// SEPOLIA_RPC_URL https://sepolia.infura.io/v3/e8822367dabc4099a9dca3c02a5df5c9
-
-// ETHERSCAN_API_KEY    MB37J7PJIQBV7ADHT5JJHZYVI1WX8ENE1C
-
 
