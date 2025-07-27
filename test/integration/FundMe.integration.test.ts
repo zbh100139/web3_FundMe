@@ -11,7 +11,7 @@ developmentChains.includes(network.name)
     let firstAccount: any;
 
     beforeEach(async function() {
-        await deployments.fixture(["fundme"]);
+        await deployments.fixture(["fundme"]);//每次 fixture 调用都会产生新的合约部署
         const accounts = await getNamedAccounts();
         firstAccount = accounts.firstAccount;     
         const fundMeDeployment = await deployments.get("FundMe");

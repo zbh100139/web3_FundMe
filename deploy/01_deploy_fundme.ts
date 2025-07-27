@@ -42,7 +42,7 @@ const deployFundMe : DeployFunction = async (hre : HardhatRuntimeEnvironment) =>
             [MINIMUM_VALUE, TARGET, LOCK_TIME, dataFeedAddr],
             "contracts/FundMe.sol:FundMe"
         )
-    }
+    }//必须使用代理才能验证
 };
 
 export default deployFundMe;
